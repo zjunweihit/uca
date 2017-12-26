@@ -3,6 +3,9 @@
 #include <sstream>
 #include <string>
 
+// Force to use OpenCL 1.2 APIs
+#define CL_USE_DEPRECATED_OPENCL_1_2_APIS
+
 #ifdef __APPLE__
 #include <OpenCL/cl.h>
 #else
